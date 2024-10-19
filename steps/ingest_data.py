@@ -1,32 +1,13 @@
 import logging
 import pandas as pd
-from zenml import step
 
-# Configure logging
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-class IngestData: 
-    """ 
-    Ingest data from the data_path
-    """
-    def __init__ (self, data_path:str):
-        """Initialize the class
-
-        Args:
-            data_path (str): path to the data file
-        """
-        self.data = data_path
-        
-    def get_data(self):
-        logging.info(f"Ingest data from {self.data}")
-        return pd.read_csv(self.data)
-
-@step
-def ingest_df(data_path:str) -> pd.DataFrame:
+def ingest_df(data_path: str) -> pd.DataFrame:
     """ Ingest data from data_path """
     try:
-        ingest_data = IngestData(data_path)
-        df = ingest_data.get_data()
+        logging.info(f"Ingesting data from {data_path}")
+        df = pd.read_csv(data_path)
         return df
     except Exception as e:
         logging.error(f"Error while ingesting data: {e}")
