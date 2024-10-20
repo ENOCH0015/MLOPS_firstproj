@@ -1,9 +1,2 @@
-active_stack: default
-active_stack_id: 370786a4-3843-4ad2-967b-6565b6c6d60c
-active_workspace_id: e2757e2b-873f-46f9-bae0-2b373694e9b6
-artifact_store:
-  path: C:\Users\DELL\Documents\AI engr\Ecommerce mlops\zenml_artifacts
-  type: local
-metadata_store:
-  path: C:\Users\DELL\Documents\AI engr\Ecommerce mlops\zenml.db
-  type: sqlite
+active_stack_id: 9e0eeea6-508a-4890-8465-333c3dcfd79b
+active_workspace_id: 274685d8-8964-41d9-948d-e42b95fcaa38
