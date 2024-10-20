@@ -1,8 +1,10 @@
 import logging
 import pandas as pd
+from zenml import step
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
+@step
 def ingest_df(data_path: str) -> pd.DataFrame:
     """ Ingest data from data_path """
     try:
