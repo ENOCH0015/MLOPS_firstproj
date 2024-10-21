@@ -20,8 +20,8 @@ if __name__ == "__main__":
     # Initialize ZenML client
     client = Client()
 
-    # Set the default stack (replace "your_stack_name" with your actual stack name)
-    client.active_stack_model.set_stack("your_stack_name")
+    # Set the active stack (replace "my_new_stack" with your actual stack name)
+    client.activate_stack("my_new_stack")
 
     # Define the data path
     data_path = r"C:\Users\DELL\Documents\AI engr\Ecommerce mlops\DATA\olist_customers_dataset.csv"
