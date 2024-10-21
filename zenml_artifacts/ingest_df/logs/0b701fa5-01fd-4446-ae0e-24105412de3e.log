@@ -1,0 +1,10 @@
+[2024-10-21 11:12:12 UTC] Step ingest_df has started.
+
+[2024-10-21 11:12:12 UTC] Ingesting data from C:\Users\DELL\Documents\AI engr\Ecommerce mlops\DATA\olist_customers_dataset.csv
+
+[2024-10-21 11:12:12 UTC] By default, the PandasMaterializer stores data as a .csv file. If you want to store data more efficiently, you can install pyarrow by running 'pip install pyarrow'. This will allow PandasMaterializer to automatically store the data as a .parquet file instead.
+
+[2024-10-21 11:12:12 UTC] Step ingest_df has finished in 4.100s.
+
+[2024-10-21 11:12:12 UTC] Step ingest_df completed successfully.
+

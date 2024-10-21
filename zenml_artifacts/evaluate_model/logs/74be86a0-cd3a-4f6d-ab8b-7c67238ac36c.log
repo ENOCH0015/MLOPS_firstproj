@@ -1,0 +1,13 @@
+[2024-10-21 13:00:31 UTC] Step evaluate_model has started.
+
+[2024-10-21 13:00:31 UTC] By default, the PandasMaterializer stores data as a .csv file. If you want to store data more efficiently, you can install pyarrow by running 'pip install pyarrow'. This will allow PandasMaterializer to automatically store the data as a .parquet file instead.
+
+[2024-10-21 13:00:31 UTC] C:\Users\DELL\Documents\AI engr\Ecommerce mlops\venv\Lib\site-packages\zenml\integrations\pandas\materializers\pandas_materializer.py:99: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df = pd.read_csv(f, index_col=0, parse_dates=True)
+
+[2024-10-21 13:00:31 UTC] Evaluating model
+
+[2024-10-21 13:00:31 UTC] Step evaluate_model has finished in 0.998s.
+
+[2024-10-21 13:00:31 UTC] Step evaluate_model completed successfully.
+

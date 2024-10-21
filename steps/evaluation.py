@@ -11,3 +11,4 @@ def evaluate_model(model, df: pd.DataFrame) -> None:
     # For example:
     # score = model.evaluate(df)
     # logging.info(f"Model score: {score}")
+    pass
